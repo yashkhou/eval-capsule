@@ -34,3 +34,12 @@ python -m unittest discover -s tests -v
 ```
 
 MIT licensed.
+
+
+## v0.1.1
+
+**Richer portable assertions and safer extraction.** Capsules now support JSON Pointer escaping plus exists, regex, numeric-bound and length assertions; missing paths become structured failures and symlink archive entries are rejected.
+
+```bash
+PYTHONPATH=src python -m unittest discover -s tests -v
+```
