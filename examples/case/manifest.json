@@ -1,0 +1,17 @@
+{
+  "version": "1",
+  "actual": "actual.json",
+  "files": [
+    "actual.json"
+  ],
+  "assertions": [
+    {
+      "path": "/decision/allowed",
+      "equals": false
+    },
+    {
+      "path": "/reasons",
+      "contains": "untrusted input"
+    }
+  ]
+}
