@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> **This project now lives in [agent-reliability-lab](https://github.com/yashkhou/agent-reliability-lab/tree/main/packages/eval-capsule).** Its full history was moved there and this repository is archived.
+>
+> `pip install "git+https://github.com/yashkhou/agent-reliability-lab#subdirectory=packages/eval-capsule"`
+
+
 # eval-capsule
 
 A portable ZIP format for reproducible agent eval cases: inputs, fixtures, assertions and provenance hashes travel together.
